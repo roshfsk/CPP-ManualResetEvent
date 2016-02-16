@@ -2,7 +2,7 @@
  * ManualResetEvent.h
  *
  *  Created on: Feb 15, 2016
- *      Author: root
+ *      Author: RoshanF
  */
 #include <pthread.h>
 #include <stdbool.h>
