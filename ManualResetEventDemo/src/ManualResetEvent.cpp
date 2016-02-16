@@ -2,7 +2,7 @@
  * ManualResetEvent.cpp
  *
  *  Created on: Feb 15, 2016
- *      Author: root
+ *      Author: RoshanF
  */
 
 #include <ManualResetEvent.h>
