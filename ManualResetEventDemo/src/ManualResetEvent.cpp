@@ -27,7 +27,7 @@ void ManualResetEvent::init(struct MREStruct *ev) {
 void ManualResetEvent::trigger(struct MREStruct *ev) {
     pthread_mutex_lock(&ev->mutex);
     ev->triggered = true;
-    pthread_cond_signal(&ev->cond);
+    pthread_cond_broadcast(&ev->cond);
     pthread_mutex_unlock(&ev->mutex);
 }
 
